@@ -3,13 +3,15 @@ const path = require("path");
 const hbs = require("hbs");
 const geo = require(__dirname + "/geocode.js");
 const fore = require(__dirname + "/forecast.js");
+
 const app = express();
+const port = process.env.PORT || 3000;
 const publicDirectoryPath = path.join(__dirname,"../public");
 const viewsPath = path.join(__dirname, "../templates/views");
 const partialsPath = path.join(__dirname, "../templates/partials");
 
-app.listen(3000 ,()=>{
-  console.log("The server did start on port 3000");
+app.listen(port ,()=>{
+  console.log("The server did start on port " + port);
 });
 app.use(express.static(publicDirectoryPath));
 app.set("view engine", "hbs");
