@@ -1,17 +1,31 @@
 {
+<<<<<<< HEAD
   "name": "web-server",
+=======
+  "name": "notesApp",
+>>>>>>> fe75ba9a7445266d82867873ae95ce2fe0219810
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node src/app.js"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> fe75ba9a7445266d82867873ae95ce2fe0219810
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.16.4",
     "hbs": "^4.0.4",
     "request": "^2.88.0"
+=======
+    "chalk": "^2.4.2",
+    "validator": "^10.11.0",
+    "yargs": "^13.2.2"
+>>>>>>> fe75ba9a7445266d82867873ae95ce2fe0219810
   }
 }
